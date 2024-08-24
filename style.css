@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.label{
+    text-align: center;
+}
+
+.image {
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.image-div {
+    margin: 5px 20px;
+    border: 1px solid red;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result {
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+
+.notpoint {
+    cursor: default;
+    pointer-events: none;
+}
+
+.button{
+    padding: 10px 40px;
+    background-color: rgb(24, 233, 24);
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}

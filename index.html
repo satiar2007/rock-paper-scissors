@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <link rel="shortcut icon" href="images/paper.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="h1">Choose any image:</h1>
+    <div class="">
+        <div>
+            <h1 class="h1">You: <span id="label">try</span></h1>
+        </div>
+        <div class="image-div">
+            <img src="images/paper.png" onclick="handleClick(this)" id="2" class="image paper" alt="paper image">
+            <img src="images/rock.png" onclick="handleClick(this)" id="1" class="image rock" alt="">
+            <img src="images/scissors.png" onclick="handleClick(this)" id="3" class="image scissors" alt="">
+        </div>
+    </div>
+    <h1 class="result">WIN <span id="win">0</span> | Lost <span id="lost">0</span> | Draw <span id="draw">0</span></h1>
+    <div style="text-align: center;">
+        <button class="button" onclick="reset()">Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
